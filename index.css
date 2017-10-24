@@ -1,0 +1,240 @@
+p {
+    font-size: 22px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.container {
+    max-width: 760px;
+}
+
+.add-info {
+    text-align: center;
+}
+
+
+/* input fields and form*/
+
+#groupOne,
+#groupTwo,
+#groupThree,
+#groupFour {
+    margin: 0px auto;
+    max-width: 600px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 40px;
+    position: relative;
+    top: 145px;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 2%;
+    border-radius: 6%;
+}
+
+
+/**/
+
+.input-fields {
+    min-width: 250px;
+}
+
+.input-fields:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.btn.btn-default {
+    margin: 25px auto;
+    min-width: 150px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.section3 {
+    margin: 100px auto;
+}
+
+.section1 {
+    padding: 100px;
+    background: #763c6c;
+    color: #fff;
+}
+
+.section1 p,
+.section3 p {
+    font-size: 18px;
+}
+
+.section2 {
+    margin: 100px;
+}
+
+.section4 {
+    padding: 60px;
+    background-color: #1B4341;
+}
+
+.search-2 {
+    background: #428bca;
+    margin: 1px auto;
+    padding: 100px;
+}
+
+.col-sm-12 {
+    padding: 0;
+}
+
+
+/* .xs-primary-content {
+    max-width: none;
+    margin-top: -125px;
+} */
+
+
+/*body { margin: -200px; }*/
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+#groupTwo {
+    display: none;
+}
+
+#groupThree {
+    display: none;
+}
+
+#groupFour {
+    display: none;
+}
+
+.control-label {
+    color: black;
+}
+
+.label-name,
+.h1,
+h1,
+.add-info {
+    color: #fff
+}
+
+@media only screen and (max-width: 767) {
+    #groupOne,
+    #groupTwo,
+    #groupThree,
+    #groupFour {
+        max-width: 275px;
+        position: relative;
+        top: 120px;
+    }
+}
+
+
+/*this is temporary until we figure out what to do with the original section*/
+
+.text-center h2 {
+    margin: 35px auto;
+}
+
+#btnStart {
+    background-color: #763c6c;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+}
+
+#btnStart:hover {
+    background-color: #fff;
+    color: #763c6c;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#stepOne {
+    background-color: #428bca;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#stepOne:hover {
+    background-color: #fff;
+    border: none;
+    color: #428bca;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+/******************Form styling***********/
+
+.form-group .col-sm-8 {
+    margin: 0px;
+}
+
+.form-horizontal .form-group {
+    margin-bottom: 50px;
+}
+
+
+/********Lead Capture Form************/
+
+.form-group .col-sm-8 {
+    width: 50%;
+    padding-left: 0px;
+}
+
+.form-group .col-sm-3 {
+    padding-right: 7px;
+}
+
+.control-label {
+    color: #fff;
+    border: none;
+}
+
+legend {
+    color: #fff;
+}
+
+.form-horizontal .form-group {
+    margin-bottom: 30px !important;
+}
+
+.btn-primary {
+    background-image: none !important;
+    margin: 15px 0px;
+    padding: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+    .form-horizontal .form-group {
+        margin: 0px !important;
+    }
+    .col-sm-3 {
+        padding-left: 0px;
+    }
+    .form-group .col-sm-8 {
+        width: 100%;
+    }
+    .section1,
+    .search-2 {
+        padding: 49px;
+    }
+    .btn-primary {
+        margin: 15px 0px;
+    }
+    #hm {
+        margin-bottom: 20px;
+    }
+}
